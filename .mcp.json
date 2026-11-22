@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "scrapemapsapi": {
+      "command": "uvx",
+      "args": ["scrapemapsapi-mcp"],
+      "env": {
+        "SCRAPEMAPSAPI_API_KEY": "${SCRAPEMAPSAPI_API_KEY}"
+      }
+    }
+  }
+}

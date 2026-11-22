@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.scrapemapsapi/scrapemapsapi",
+  "title": "ScrapeMapsAPI",
+  "description": "Google Maps places, place details and every review of a place, for AI assistants.",
+  "version": "0.1.0",
+  "websiteUrl": "https://scrapemapsapi.com/docs/mcp",
+  "repository": {
+    "url": "https://github.com/scrapemapsapi/mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://scrapemapsapi.com/icon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "scrapemapsapi-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SCRAPEMAPSAPI_API_KEY",
+          "description": "Your ScrapeMapsAPI API key, from https://scrapemapsapi.com/dashboard/api-keys",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.scrapemapsapi.com/mcp"
+    }
+  ]
+}

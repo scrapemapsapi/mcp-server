@@ -1,0 +1,30 @@
+{
+  "name": "scrapemapsapi-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the ScrapeMapsAPI API: Google Maps places and reviews (npm wrapper around the Python package)",
+  "license": "MIT",
+  "bin": {
+    "scrapemapsapi-mcp": "./bin/cli.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "mcp",
+    "google-maps",
+    "places",
+    "reviews",
+    "ai"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrapemapsapi/mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scrapemapsapi/mcp-server/issues"
+  },
+  "homepage": "https://scrapemapsapi.com/docs/mcp"
+}
