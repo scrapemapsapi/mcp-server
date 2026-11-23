@@ -2,6 +2,8 @@
 
 <!-- mcp-name: com.scrapemapsapi/scrapemapsapi -->
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/scrapemapsapi/mcp-server)
+
 An [MCP](https://modelcontextprotocol.io) server that gives AI assistants (Claude Desktop, Claude Code, Cursor, Cline, ...) access to Google Maps places, place details and **all** the reviews of a place, via the [ScrapeMapsAPI](https://scrapemapsapi.com) API.
 
 ## No install: connect from Claude or ChatGPT
